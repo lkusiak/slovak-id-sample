@@ -8,7 +8,7 @@ import { Id } from './id';
 export class AppComponent {
   title = 'id-sk-gen';
 
-  model = new Id("Specimen", "Vzorka", "SVK", "F","EA000000", "11.11.1911", "Bratislava", "111111/111", "01.03.2025", "01.03.2015",  "Bratislava", "Zizkova 12", "", "Povodna", "Banska Bystrica", "Mgr.", "IDSVKEA000000<81111111111<<<<<", "1111112F2503011SVK<<<<<<<<<<<6", "SPECIMEN<<VZORKA<<<<<<<<<<<<<<")
+  model = new Id()
 
   submitted = false;
 
